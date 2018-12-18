@@ -65,7 +65,7 @@ let result = userCheck.test(username);
 <section id='solution'>
 
 ```js
-const userCheck = /^[A-Za-z]{2,}\d*$/;
+const userCheck = /^[A-Za-z]{2,}\d{0,2}/;
 ```
 
 </section>
